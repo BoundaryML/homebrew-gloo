@@ -1,4 +1,4 @@
-class Rustscan < Formula
+class Gloo < Formula
   desc "Gloo Utilities" 
   homepage "https://www.trygloo.com"
   url "https://github.com/GlooHQ/homebrew-gloo/releases/download/v0.1.0/gloo-0.1.0-x64_64-apple-darwin.tar.gz"
