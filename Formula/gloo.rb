@@ -6,6 +6,6 @@ class Gloo < Formula
   version "0.1.0"
 
   def install
-    bin.install "gloo"
+    bin.install "gloo_cli"
   end
 end
