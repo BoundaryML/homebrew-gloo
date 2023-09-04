@@ -1,0 +1,14 @@
+Id: gloo.gloo-cli
+Version: 0.1.6
+Name: gloo
+Publisher: Gloo
+InstallerType: exe
+Installers:
+  - Arch: x86_64
+    Url: https://github.com/GlooHQ/homebrew-gloo/releases/download/0.1.1/gloo.exe
+    Sha256: b7ae55ed3f8177672c3f0bcce81c4c92b340b18f3342e79a321f1584c851bd45
+    InstallerType: exe
+    Scope: user
+    Language: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0
