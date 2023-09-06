@@ -14,7 +14,7 @@ class Gloo < Formula
   end
 
    on_linux do
-    url "https://github.com/GlooHQ/homebrew-gloo/releases/download/v0.2/gloo-linux-ubuntu.tar.gz"
+    url "https://github.com/GlooHQ/homebrew-gloo/releases/download/v0.2/gloo-linux-x86_64.tar.gz"
     sha256 "4bf4dcb077a4ad767e7975b17118443c1f7ece28fdfad69055d880941dfe017e"
   end
 
