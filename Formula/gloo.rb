@@ -11,6 +11,7 @@ class Gloo < Formula
       url "https://github.com/GlooHQ/homebrew-gloo/releases/download/v0.2/gloo-apple-arm.tar.gz"
       sha256 "ac578b3f1f7a4382b4dee406dd4584d1608f367db8d3e74d28c00246054db104"
     end
+  end
 
   def install
     bin.install "gloo"
