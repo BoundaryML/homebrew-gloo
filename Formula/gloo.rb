@@ -13,6 +13,11 @@ class Gloo < Formula
     end
   end
 
+   on_linux do
+    url "https://github.com/GlooHQ/homebrew-gloo/releases/download/v0.2/gloo-linux-ubuntu.tar.gz"
+    sha256 "4bf4dcb077a4ad767e7975b17118443c1f7ece28fdfad69055d880941dfe017e"
+  end
+
   def install
     bin.install "gloo"
   end
