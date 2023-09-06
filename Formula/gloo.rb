@@ -1,9 +1,9 @@
 class Gloo < Formula
   desc "Gloo Utilities" 
   homepage "https://www.trygloo.com"
-  url "https://github.com/GlooHQ/homebrew-gloo/releases/download/0.1.1/gloov0.1.6.tar.gz"
-  sha256 "4e5849a3c5891178d153d00f0f31bf87b4be57ab6a859addc52dd1b923f9639f"
-  version "0.1.6"
+  url "https://github.com/GlooHQ/homebrew-gloo/releases/download/v0.2/gloo-silicon.tar.gz"
+  sha256 "ac578b3f1f7a4382b4dee406dd4584d1608f367db8d3e74d28c00246054db104"
+  version "0.2"
 
   def install
     bin.install "gloo"
