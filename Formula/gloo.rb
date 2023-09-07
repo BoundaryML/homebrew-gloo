@@ -1,15 +1,15 @@
 class Gloo < Formula
   desc "Gloo Utilities" 
   homepage "https://www.trygloo.com"
-  version "0.2"
+  version "0.2.1"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/GlooHQ/homebrew-gloo/releases/download/v0.2/gloo-apple-intel.tar.gz"
-      sha256 "dfb02440c595e1029e74f19c6d0e361c5e5bec7fe581485b6cc8134113d0d438"
+      url "https://github.com/GlooHQ/homebrew-gloo/releases/download/v0.2.1/gloo-apple-intel.tar.gz"
+      sha256 "d5b59068af80dc1285af60998082fa8c5bbe74243d7d691195acae850640e8da"
     elsif Hardware::CPU.arm?
-      url "https://github.com/GlooHQ/homebrew-gloo/releases/download/v0.2/gloo-apple-arm.tar.gz"
-      sha256 "ac578b3f1f7a4382b4dee406dd4584d1608f367db8d3e74d28c00246054db104"
+      url "https://github.com/GlooHQ/homebrew-gloo/releases/download/v0.2.1/gloo-apple-arm.tar.gz"
+      sha256 "6099b85f7feaaee200445e24f930dd77d01194b05983aab22991d81dfc4aad6e"
     end
   end
 
