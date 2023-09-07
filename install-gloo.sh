@@ -35,7 +35,7 @@ tar -xvzf $FILENAME
 chmod +x $BINARY_NAME
 
 # Move the binary to your PATH
-sudo mv $BINARY_NAME /usr/local/bin/
+mv $BINARY_NAME /usr/local/bin/
 
 # Verify installation
 if which $BINARY_NAME > /dev/null; then
