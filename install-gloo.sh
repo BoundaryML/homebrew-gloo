@@ -29,7 +29,7 @@ curl -L -O $URL
 FILENAME=$(basename $URL)
 
 # Unzip the file
-unzip $FILENAME
+tar -xvzf $FILENAME
 
 # Make the binary executable
 chmod +x $BINARY_NAME
