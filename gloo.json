@@ -1,15 +1,15 @@
 {
-    "version": "0.2.1",
-    "homepage": "https://trygloo.com",
-    "url": "https://github.com/GlooHQ/homebrew-gloo/releases/download/v0.2.1/gloo.exe",
-    "bin": "gloo.exe",
-    "hash": "9519f8023dc8fa8a0f6402be30c67f23fcde6aaa7905ea27b1d614de6844d0c9",
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/GlooHQ/homebrew-gloo/releases/download/v$version/gloo.exe"
-            }
-        }
+  "version": "0.2.2",
+  "homepage": "https://trygloo.com",
+  "url": "https://github.com/GlooHQ/homebrew-gloo/releases/download/v0.2.2/gloo.exe",
+  "bin": "gloo.exe",
+  "hash": "03488ca87da65998c5873f65b74ddaf4cc3fd1cccd92951f3452c8391ed9a197",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/GlooHQ/homebrew-gloo/releases/download/v$version/gloo.exe"
+      }
     }
+  }
 }
