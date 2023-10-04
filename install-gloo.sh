@@ -9,7 +9,7 @@ RED=$(tput setaf 1)
 RESET=$(tput sgr0)
 
 # Define the URL of the tar.gz file
-URL="https://github.com/GlooHQ/homebrew-gloo/releases/download/v0.2.1/gloo-linux-x86_64.tar.gz"
+URL="https://github.com/GlooHQ/homebrew-gloo/releases/download/v0.2.4/gloo-linux-x86_64.tar.gz"
 BINARY_NAME="gloo"
 LOG_FILE="install_log.txt"
 

@@ -1,9 +1,9 @@
 {
-  "version": "0.2.2",
+  "version": "0.2.4",
   "homepage": "https://trygloo.com",
-  "url": "https://github.com/GlooHQ/homebrew-gloo/releases/download/v0.2.2/gloo.exe",
+  "url": "https://github.com/GlooHQ/homebrew-gloo/releases/download/v0.2.4/gloo.exe",
   "bin": "gloo.exe",
-  "hash": "bebc4aa7930067db2e1d97c28fa1a76b6fd3a6d09e1943a22b42fb1713bc96ec",
+  "hash": "3cca14953139625f30fa232944467a61ad2482fca7f3590c2cc33f5657fb27a6",
   "checkver": "github",
   "autoupdate": {
     "architecture": {
